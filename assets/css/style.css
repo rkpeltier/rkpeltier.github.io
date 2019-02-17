@@ -1,0 +1,11 @@
+.style-link:link {
+    color: darkblue;
+}
+
+.style-link:visited {
+    color: cornflowerblue;
+}
+
+.style-link:hover {
+    color: orangered;
+}
