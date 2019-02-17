@@ -8,4 +8,23 @@
 
 .style-link:hover {
     color: orangered;
+    text-decoration: none;
+}
+
+.style-link:active {
+    color: goldenrod;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#mailto {
+    text-align: center;
+}
+
+#big-text {
+    font-size: 18pt;
+}
+
+#text-size {
+    font-size: 24pt;
 }
