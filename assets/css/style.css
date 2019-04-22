@@ -28,3 +28,8 @@
 #text-size {
     font-size: 24pt;
 }
+
+#friends {
+    height: 200px;
+    width: 200px;
+}
