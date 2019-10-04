@@ -6,58 +6,100 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Magra|Rock+Salt&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Caveat+Brush&display=swap" rel="stylesheet">
     <title>Portfolio</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <h2 class="text-light">Rebecca Peltier</h2>
-        <a class="nav-link text-light" href="index.html">About</a>
-        <a class="nav-link text-light" href="portfolio.html">Portfolio</a>
-        <a class="nav-link text-light" href="contact.html">Contact</a>
-    </nav>
+    <nav class="navbar" id="bg">
+        <a class="navbar-brand" id="bp" href="#">
+          Rebecca Peltier
+          </a>
+          <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link" id ="nav-text" href="index.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id ="nav-text" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id ="nav-text" href="contact.html">Contact</a>
+            </li>
+          </ul>
+      </nav>
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <h1>Portfolio</h1>
+                <h1 id="port-title">Portfolio</h1>
             </div>
-        <div class="card-group">
-            <div class="card">
-            <a href ="https://rkpeltier.github.io/psychic-game/"><img class="card-img-top" src="assets/images/crystal-ball.png" style="height: 200px; width: 200px;" alt="Card image cap"></a>
-                <div class="card-body">
-                <a class="style-link" href="https://rkpeltier.github.io/psychic-game/">Pyschic Game</a>
+        </div>
+        <div class="row">
+            <div class="card-deck">
+                <div class="card">
+                    <img class="card-img-top" src="./assets/images/crystalball.jpg" alt="Psychic Game">
+                    <div class="card-body">
+                    <h5 class="card-title">Psychic Game</h5>
+                    <p class="card-text">A javascript game in which the user has to guess the correct
+                        letters against the computer.
+                    </p>
+                    <a href="https://rkpeltier.github.io/psychic-game/" class="btn btn-primary" target="_blank">Psychic Game</a>
+                    <a href="https://github.com/rkpeltier/psychic-game" class="btn btn-dark" target="_blank">Github Repository</a>
+                    </div>
                 </div>
-            </div>
-            <div class="card">
-                <a class="style-link" href="https://rkpeltier.github.io/unit-4-game/"><img class="card-img-top" src="assets/images/red_gem_200x200.png"  alt="Card image cap"></a>
-                <div class="card-body">
-                <a class="style-link" href="https://rkpeltier.github.io/unit-4-game/">Crystal Collector</a>
+                <div class="card">
+                    <img class="card-img-top" src=".../100px200/" alt="Card image cap">
+                    <div class="card-body">
+                    <h5 class="card-title">Trivia Game</h5>
+                    <p class="card-text">Answer correctly all the questions within the time limit to win!</p>
+                    <a href="#" class="btn btn-primary" target="_blank">Trivia Game</a>
+                    <a href="#" class="btn btn-dark" target="_blank">Github Repository</a>
+                    </div>
                 </div>
-            </div>
-            <div class="card">
-                <img class="card-img-top" src="assets/images/coming_soon_200x200.jpg" alt="Card image cap">
-                <div class="card-body">
-                <p class="card-text">Trivia Game</p>
+                <div class="card">
+                    <img class="card-img-top" src=".../100px200/" alt="Card image cap">
+                    <div class="card-body">
+                    <h5 class="card-title">Crystal Collector</h5>
+                    <p class="card-text">Click on the crystals to generate a random number and try to match
+                        the computer's guess.</p>
+                    <a href="#" class="btn btn-primary" target="_blank">Crystal Collector</a>
+                    <a href="#" class="btn btn-dark" target="_blank">Github Repository</a>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="card-group">
-            <div class="card">
-            <a href="https://rkpeltier.github.io/giphy-fun/"><img class="card-img-top" src="assets/images/guitar_200x200.jpg" alt="Card image cap"></a>
-                <div class="card-body">
-                <a class="style-link" href="https://rkpeltier.github.io/giphy-fun/">Rock Band</a>
-                </div>
+        <div class="row">
+            <div clas="col-sm-12">
+                <div id="blank"></div>
             </div>
-            <div class="card">
-                <a href="https://rkpeltier.github.io/project1/"><img class="card-img-top" src="assets/images/wedding_board_200x200.jpg" alt="Card image cap"></a>
-                <div class="card-body">
-                    <a class="style-link" href="https://wedding-dreamboard.herokuapp.com/">Wedding Dreamboard</a>
+        </div>
+        <div class="row">
+            <div class="card-deck">
+                <div class="card">
+                    <img class="card-img-top" src=".../100px200/" alt="Card image cap">
+                    <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Text.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
                 </div>
-            </div>
-            <div class="card">
-                <a href="https://shrouded-oasis-93481.herokuapp.com/"><img class="card-img-top" id="friends" src="assets/images/friendshipsfirst.gif" alt="Card image cap"></a>
-                <div class="card-body">
-                <!-- <p class="card-text">Friend Finder</p> -->
-                <a class="style-link" href="https://shrouded-oasis-93481.herokuapp.com/">Friend Finder</a>
+                <div class="card">
+                    <img class="card-img-top" src=".../100px200/" alt="Card image cap">
+                    <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src=".../100px200/" alt="Card image cap">
+                    <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">Text here.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
                 </div>
             </div>
         </div>
